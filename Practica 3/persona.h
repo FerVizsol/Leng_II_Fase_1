@@ -10,9 +10,13 @@ class Persona{
     int edad;
     public:
     void ingresar();
-    
-}
-
-int main(){
-
-}
+    void imprimir();
+    //getters
+    int get_Dni();
+    string get_Nombre();
+    int get_Edad();
+    //setters
+    void set_Dni(int);
+    void set_Nombre(string);
+    void set_Edad(int);
+};
